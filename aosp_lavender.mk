@@ -33,4 +33,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := xiaomi/lavender/lavender:9/PKQ1.180904.001/V11.0.4.0.PFGMIXM:user/release-keys
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
