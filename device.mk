@@ -478,7 +478,3 @@ PRODUCT_PACKAGES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
-
-# Wallpapers
-PRODUCT_PACKAGES += \
-    WallpapersBReel2019
